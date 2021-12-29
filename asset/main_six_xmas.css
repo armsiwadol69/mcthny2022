@@ -1,0 +1,76 @@
+body {
+  	background: url('../asset/img/xmas.jpg') no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  	animation: gradient 100s linear infinite;
+    font-family: 'Mitr', sans-serif;}
+
+    @keyframes gradient {
+    	0% {
+    		background-position: 0% 50%;
+    	}
+    	50% {
+    		background-position: 100% 50%;
+    	}
+    	100% {
+    		background-position: 0% 50%;
+    	}
+    }
+
+    .papar_bg{
+      background: url('../asset/img/papar_xmas.jpg') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+    }
+
+    .papar_bg_2{
+      background: url('../asset/img/papar_xmas.jpg') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+
+    }
+    .textshadow{text-shadow: -5px 4px 11px rgba(255, 255, 255, 0.1) !important;}
+    .xmas_text{
+      background: #F5624D;
+    background: -webkit-repeating-radial-gradient(ellipse farthest-corner at center center, #F5624D 0%, #CC231E 45%, #34A65F 50%, #0F8A5F 100%);
+    background: -moz-repeating-radial-gradient(ellipse farthest-corner at center center, #F5624D 0%, #CC231E 45%, #34A65F 50%, #0F8A5F 100%);
+    background: repeating-radial-gradient(ellipse farthest-corner at center center, #F5624D 0%, #CC231E 45%, #34A65F 50%, #0F8A5F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.25px white;
+
+    }
+    .xmas_btn {
+      background: rgb(63,94,251);
+      background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+      background-size: 400% 400%;
+
+    -webkit-animation: xmas_btn_ani 6s ease infinite;
+    -o-animation: xmas_btn_ani 6s ease infinite;
+    animation: xmas_btn_ani 6s ease infinite;
+    }
+    .xmas_btn:hover{
+      background: rgb(63,212,251);
+      background: linear-gradient(90deg, rgba(63,212,251,1) 0%, rgba(252,70,214,1) 100%);
+      background-size: 400% 400%;
+      -webkit-animation: xmas_btn_ani 4s ease infinite;
+      -o-animation: xmas_btn_ani 4s ease infinite;
+      animation: xmas_btn_ani 4s ease infinite;
+    }
+
+
+    @-webkit-keyframes xmas_btn_ani {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes xmas_btn_ani {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes xmas_btn_ani {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
